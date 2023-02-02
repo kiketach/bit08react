@@ -1,9 +1,9 @@
-import Productos from "./components/Productos";
+import Peliculas from "./components/Peliculas"
 
 function App() {
   return (
     <>
-    <Productos/>
+   <Peliculas/>
     </>
   );
 }
