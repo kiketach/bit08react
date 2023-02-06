@@ -31,7 +31,7 @@ export const MovieAdd = ({ handleNewMovie }) => {
 				name='description'
 				value={description}
 				onChange={onInputChange}
-				placeholder='¿Qué peliculas quieres agregar?'
+				placeholder='¿Qué pelicula quieres agregar?'
 			/>
 
 			<button className='btn-add' type='submit'>

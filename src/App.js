@@ -19,17 +19,8 @@ function App() {
 			<div className='card-to-do'>
 				<h1> Peliculas recomendadas este 2023</h1>
 				<div className='add-movie'>
-          
 					<hr /> <br></br> 
 					<MovieAdd handleNewMovie={handleNewMovie} />
-				</div>
-        <div className='counter-movies'>
-					<h3>
-						Peliculas en total: <span>{moviesCount}</span>
-					</h3>
-					<h3>
-						Pendientes por ver: <span>{pendingMoviesCount}</span>
-					</h3>
 				</div>
 				<MovieList
 					movies={movies}
@@ -37,6 +28,18 @@ function App() {
 					handleDeleteMovie={handleDeleteMovie}
 					handleCompleteMovie={handleCompleteMovie}
 				/>
+        <br></br> <hr></hr>
+        
+           <div className='counter-movies'>
+        <h3>
+						Te faltan <span>{pendingMoviesCount}</span> peliculas por ver.
+					</h3>
+          <br></br>
+          <h3>
+						 <span>{moviesCount}</span> Peliculas en total.
+					</h3>
+				</div>
+        
 			</div>
 		</>
 	);
