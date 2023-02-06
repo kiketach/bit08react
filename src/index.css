@@ -1,3 +1,5 @@
+/* Estilos Generales */
+
 * {
 	margin: 0;
 	padding: 0;
@@ -16,6 +18,8 @@ body {
     background-size: cover;
 }
 
+/* Estilos para el contenedor principal */
+
 .card-to-do {
 	box-shadow: 0px 0px 5px rgb(245, 243, 243);
 	padding: 25px;
@@ -25,21 +29,21 @@ body {
 
 }
 
+/* Estilos para los titulos */
+
 h1, h3 {
 	text-align: center;
     color: #fff;
 }
 
+/* Estilos para los contadores */
 .counter-movies {
 	margin: 40px 0;
 	display: flex;
 	justify-content: space-around;
 }
 
-.counter-movies h3 {
-	font-weight: 500;
-}
-
+/* Estilos para la linea de contadores */
 .counter-movies span {
 	color: #10e729;
 	font-weight: 700;
@@ -47,6 +51,7 @@ h1, h3 {
 	margin-left: 10px;
 }
 
+/* Estilos para la lista */
 ul {
 	margin-top: 50px;
 	display: flex;
@@ -86,45 +91,46 @@ ul li form {
 	background-color:white;
 	outline: none;
     border-radius: 20px;
-    opacity: 0.5;
+   
     
 }
-
+/* Estilos para los checkbox */
 .container-done {
 	background-color: white;
 	width: 24px;
 	height: 24px;
 	border-radius: 20px;
-	border: 12px solid white;
 	cursor: pointer;
 }
 
 .container-done.active {
-	background-color: black;
+	background-color:#10e729
 }
 
 .text-decoration-dashed {
-	text-decoration: line-through;
+	text-decoration:line-through red 4px;
 }
+
+/* Estilos para el boton Delete */
 
 .btn-delete {
 	background-color: black;
-	color: #fff;
+    color: #fff;
 	padding: 15px;
 	display: flex;
-	align-items: center;
+    align-items: center;
 	justify-content: center;
 	border: none;
 	border-radius: 50%;
-	transition: all 0.3s;
-	cursor: pointer;
-	font-family: inherit;
+	transition: all 0.5s;
+	cursor:pointer;
 }
 
 .btn-delete:hover {
 	background-color: red;
 }
 
+/* Estilos para el boton de edición */
 .btn-edit {
 	background-color: black;
 	color: #fff;
@@ -134,14 +140,15 @@ ul li form {
 	justify-content: center;
 	border: none;
 	border-radius: 50%;
-	transition: all 0.3s;
+	transition: all 0.5s;
 	cursor: pointer;
-	font-family: inherit;
 }
 
 .btn-edit:hover {
 	background-color: red;
 }
+
+/* Estilos para el formulario*/
 
 form {
 	display: flex;
@@ -167,17 +174,20 @@ form {
     background-color: lightgray;
 }
 
+/* Estilos para el boton agregar*/
+
 .btn-add {
 	border: none;
 	background-color:black;
 	color: rgb(23, 221, 43);
 	padding: 5px 40px;
 	border-radius: 20px;
-	font-family: inherit;
-	cursor: pointer;
+	cursor:copy;
 	font-size: 17px;
 }
 
 .btn-add:hover {
 	background-color: red;
+    opacity: 0.8;
+    transition: all 0.5s;
 }

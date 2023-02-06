@@ -2,6 +2,8 @@ import { useRef, useState } from 'react';
 import { FaEdit } from 'react-icons/fa';
 import { useForm } from '../hooks/useForm';
 
+//Componente para actualizar la edicion en la lista
+
 export const MovieUpdate = ({ movie, handleUpdateMovie }) => {
 	const { updateDescription, onInputChange } = useForm({
 		updateDescription: movie.description,

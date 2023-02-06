@@ -16,7 +16,6 @@ export const MovieReducer = (initialState, action) => {
 						done: !movie.done,
 					};
 				}
-
 				return movie;
 			});
 

@@ -1,6 +1,8 @@
 # bit08react
 Primer proyecto basado con REACT
-"Lista de peliculas por ver"
+
+## Descripcion:
+Listado de peliculas recomendadas para ver en la plataforma de streaming "Netflix" para este 2023.
 
 # Developer
 Enrique Abril.

@@ -1,6 +1,8 @@
 import React from 'react';
 import { useForm } from '../hooks/useForm';
 
+//Componente para agregar las peliculas
+
 export const MovieAdd = ({ handleNewMovie }) => {
 	const { description, onInputChange, onResetForm } = useForm({
 		description: '',

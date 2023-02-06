@@ -2,6 +2,8 @@ import React from 'react';
 import { FaTrash } from 'react-icons/fa';
 import { MovieUpdate } from './MovieUpdate';
 
+//Componente de eventos 
+
 export const MovieItem = ({
 	movie,
 	handleUpdateMovie,

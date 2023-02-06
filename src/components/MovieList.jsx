@@ -1,6 +1,8 @@
 import React from 'react';
 import { MovieItem } from './MovieItem';
 
+//Componente para la lista
+
 export const MovieList = ({
 	movies,
 	handleUpdateMovie,
