@@ -1,0 +1,183 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;   
+    color: rgb(47, 215, 24);
+}
+
+
+body {
+	font-family:'Courier New', Courier, monospace;
+	max-width: 1200px;
+	margin: 40px auto;
+	display: flex;
+	justify-content: center;
+    background-image: url("https://images8.alphacoders.com/115/1152301.png");
+    background-size: cover;
+}
+
+.card-to-do {
+	box-shadow: 0px 0px 5px rgb(245, 243, 243);
+	padding: 25px;
+	border-radius: 50px;
+	width: 700px;
+    border: 12px solid white;
+
+}
+
+h1, h3 {
+	text-align: center;
+    color: #fff;
+}
+
+.counter-movies {
+	margin: 40px 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+.counter-movies h3 {
+	font-weight: 500;
+}
+
+.counter-movies span {
+	color: #10e729;
+	font-weight: 700;
+	font-size: 24px;
+	margin-left: 10px;
+}
+
+ul {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+ul li {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+}
+
+ul li span {
+	overflow: hidden;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+}
+
+ul li form {
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+  
+}
+
+.input-update {
+	border: none;
+    padding: 10px;
+	font-weight: 500;
+	font-size: 16px;
+	color: rgb(6, 19, 8);
+	width: 100%;
+	background-color:white;
+	outline: none;
+    border-radius: 20px;
+    opacity: 0.5;
+    
+}
+
+.container-done {
+	background-color: white;
+	width: 24px;
+	height: 24px;
+	border-radius: 20px;
+	border: 12px solid white;
+	cursor: pointer;
+}
+
+.container-done.active {
+	background-color: black;
+}
+
+.text-decoration-dashed {
+	text-decoration: line-through;
+}
+
+.btn-delete {
+	background-color: black;
+	color: #fff;
+	padding: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	border-radius: 50%;
+	transition: all 0.3s;
+	cursor: pointer;
+	font-family: inherit;
+}
+
+.btn-delete:hover {
+	background-color: red;
+}
+
+.btn-edit {
+	background-color: black;
+	color: #fff;
+	padding: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	border-radius: 50%;
+	transition: all 0.3s;
+	cursor: pointer;
+	font-family: inherit;
+}
+
+.btn-edit:hover {
+	background-color: red;
+}
+
+form {
+	display: flex;
+	gap: 20px;
+}
+
+.add-movie h3 {
+	text-align: center;
+	margin-bottom: 40px;
+	font-size: 24px;
+}
+
+.input-add {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+	border-radius: 20px;
+	flex: 1;
+	font-family: inherit;
+	font-size: 17px;
+	color: black;
+    background-color: lightgray;
+}
+
+.btn-add {
+	border: none;
+	background-color:black;
+	color: rgb(23, 221, 43);
+	padding: 5px 40px;
+	border-radius: 20px;
+	font-family: inherit;
+	cursor: pointer;
+	font-size: 17px;
+}
+
+.btn-add:hover {
+	background-color: red;
+}
