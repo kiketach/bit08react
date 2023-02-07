@@ -19,9 +19,11 @@ function App() {
 			<div className='card-to-do'>
 				<h1> Peliculas recomendadas este 2023</h1>
 				<div className='add-movie'>
-					<hr /> <br></br> 
-					<MovieAdd handleNewMovie={handleNewMovie} />
-				</div>
+				
+				</div> <br/>
+        <p>Las mejores películas de NETFLIX en 2023 van desde aventuras 
+          repletas de acción, comedias románticas, películas de animación hasta las mejores películas de terror. 
+          Hay algo para todo el mundo en su próxima lista de películas. Es hora de ver lo que NETFLIX puede tener preparado para sus suscriptores este año. </p>
 				<MovieList
 					movies={movies}
 					handleUpdateMovie={handleUpdateMovie}
@@ -39,7 +41,8 @@ function App() {
 						 <span>{moviesCount}</span> Peliculas en total.
 					</h3>
 				</div>
-        
+        <hr /> <br></br> 
+					<MovieAdd handleNewMovie={handleNewMovie} />
 			</div>
 		</>
 	);

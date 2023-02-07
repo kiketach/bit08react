@@ -25,18 +25,9 @@ export const MovieAdd = ({ handleNewMovie }) => {
 
 	return (
 		<form onSubmit={onFormSubmit}>
-			<input
-				type='text'
-				className='input-add'
-				name='description'
-				value={description}
-				onChange={onInputChange}
-				placeholder='¿Qué pelicula quieres agregar?'
+			<input type='text'className='input-add'name='description'value={description}onChange={onInputChange}placeholder='¿Qué pelicula quieres agregar?'
 			/>
-
-			<button className='btn-add' type='submit'>
-				Agregar
-			</button>
+			<button className='btn-add' type='submit'> Agregar </button>
 		</form>
 	);
 };

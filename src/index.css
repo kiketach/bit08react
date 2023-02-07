@@ -15,7 +15,7 @@ body {
 	display: flex;
 	justify-content: center;
     background-image: url("https://images8.alphacoders.com/115/1152301.png");
-    background-size: cover;
+    background-size:contain;
 }
 
 /* Estilos para el contenedor principal */

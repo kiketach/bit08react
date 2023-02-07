@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react';
-import { FaEdit } from 'react-icons/fa';
+import { FaUserEdit } from 'react-icons/fa';
 import { useForm } from '../hooks/useForm';
 
 //Componente para actualizar la edicion en la lista
@@ -41,7 +41,7 @@ export const MovieUpdate = ({ movie, handleUpdateMovie }) => {
 			/>
 
 			<button className='btn-edit' type='submit'>
-				<FaEdit />
+				<FaUserEdit />
 			</button>
 		</form>
 	);
