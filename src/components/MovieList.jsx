@@ -4,11 +4,7 @@ import { MovieItem } from './MovieItem';
 //Componente para la lista
 
 export const MovieList = ({
-	movies,
-	handleUpdateMovie,
-	handleDeleteMovie,
-	handleCompleteMovie,
-}) => {
+	movies,handleUpdateMovie,handleDeleteMovie,handleCompleteMovie,}) => {
 	return (
 		<ul>
 			{movies.map(movie => (

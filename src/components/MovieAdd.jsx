@@ -14,11 +14,7 @@ export const MovieAdd = ({ handleNewMovie }) => {
 
 		if (description.length <= 1) return;
 
-		let newMovie = {
-			id: new Date().getTime(),
-			description: description,
-			done: false,
-		};
+		let newMovie = {id: new Date().getTime(), description: description, done: false,};
 
 		handleNewMovie(newMovie);
 		onResetForm();
@@ -26,8 +22,8 @@ export const MovieAdd = ({ handleNewMovie }) => {
 
 	return (
 		<form onSubmit={onFormSubmit}>
-			<input type='text'className='input-add'name='description'value={description}onChange={onInputChange}placeholder='¿Qué pelicula quieres agregar?'
-			/>
+			<input type='text'className='input-add'name='description'
+			value={description}onChange={onInputChange}placeholder='¿Qué pelicula quieres agregar?'/>
 			<button className='btn-add' type='submit'> Agregar <FaAddressBook/> </button>
 		</form>
 	);

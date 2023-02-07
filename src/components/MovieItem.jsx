@@ -8,8 +8,7 @@ export const MovieItem = ({movie, handleUpdateMovie,handleDeleteMovie,handleComp
 	return (
 		<li>
 			<span onClick={() => handleCompleteMovie(movie.id)}>
-				<label className={`container-done ${movie.done ? 'active' : ''}`}></label>
-			</span>
+				<label className={`container-done ${movie.done ? 'active' : ''}`}></label></span>
 			<MovieUpdate movie={movie} handleUpdateMovie={handleUpdateMovie} />
 			<button className='btn-delete'	onClick={() => handleDeleteMovie(movie.id)}> <FaEraser /> </button>
 		</li>
