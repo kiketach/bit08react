@@ -13,18 +13,23 @@ body {
 	margin: 40px auto;
 	display: flex;
 	justify-content: center;
-    background-image: url("https://images8.alphacoders.com/115/1152301.png");
-    background-size:contain;
+    background-image: url("https://images7.alphacoders.com/413/413186.jpg");
+    background-size:cover;
+	height: 100%;
+	
 }
+
 
 /* Estilos para el contenedor principal */
 
 .card-to-do {
 	box-shadow: 0px 0px 5px rgb(245, 243, 243);
-	padding: 25px;
+	padding: 20px;
 	border-radius: 50px;
-	width: 700px;
+	width: 100%;
+	align-items: center;
     border: 12px solid white;
+	background-color: black;
 
 }
 

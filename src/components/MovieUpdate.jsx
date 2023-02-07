@@ -35,7 +35,7 @@ export const MovieUpdate = ({ movie, handleUpdateMovie }) => {
 				name='updateDescription'
 				value={updateDescription}
 				onChange={onInputChange}
-				placeholder='¿Qué Pelicula desea ver?'
+				placeholder='Nuevo artículo'
 				readOnly={disabled}
 				ref={focusInputRef}
 			/>

@@ -17,13 +17,11 @@ function App() {
 	return (
 		<>
 			<div className='card-to-do'>
-				<h1> Peliculas recomendadas este 2023</h1>
+				<h1> Recordatorios de compras</h1>
         <hr></hr>
 				<div className='add-movie'>
 				</div> <br/>
-        <p>Las mejores películas de NETFLIX en 2023 van desde aventuras 
-          repletas de acción, comedias románticas, películas de animación hasta las mejores películas de terror. 
-          Hay algo para todo el mundo en su próxima lista de películas. Es hora de ver lo que NETFLIX puede tener preparado para sus suscriptores este año. </p>
+        <p>Esta aplicacion te sera util para planear tus compras antes de ir al supermercado y no se te olvide nada que necesites! </p>
 				<MovieList
 					movies={movies}
           handleDeleteMovie={handleDeleteMovie}
@@ -33,11 +31,11 @@ function App() {
         <br></br> <hr></hr>
            <div className='counter-movies'>
         <h3>
-						Te faltan <span>{pendingMoviesCount}</span> peliculas por ver.
+						Te faltan <span>{pendingMoviesCount}</span> Artículos por comprar.
 					</h3>
           <br></br>
           <h3>
-						 <span>{moviesCount}</span> Peliculas en total.
+						 <span>{moviesCount}</span> Artículos comprados.
 					</h3>
 				</div>
         <hr /> <br></br> 

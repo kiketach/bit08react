@@ -2,7 +2,7 @@ import React from 'react';
 import { FaAddressBook } from 'react-icons/fa';
 import { useForm } from '../hooks/useForm';
 
-//Componente para agregar las peliculas
+//Componente para agregar artículos
 
 export const MovieAdd = ({ handleNewMovie }) => {
 	const { description, onInputChange, onResetForm } = useForm({
@@ -23,7 +23,7 @@ export const MovieAdd = ({ handleNewMovie }) => {
 	return (
 		<form onSubmit={onFormSubmit}>
 			<input type='text'className='input-add'name='description'
-			value={description}onChange={onInputChange}placeholder='¿Qué pelicula quieres agregar?'/>
+			value={description}onChange={onInputChange}placeholder='¿Qué artículo agregar?'/>
 			<button className='btn-add' type='submit'> Agregar <FaAddressBook/> </button>
 		</form>
 	);
