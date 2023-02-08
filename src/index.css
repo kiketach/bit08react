@@ -9,13 +9,14 @@
 
 body {
 	font-family:'Courier New', Courier, monospace;
-	max-width: 1200px;
-	margin: 40px auto;
+	max-width: 75em;
+	margin: 1.25rem auto;
 	display: flex;
 	justify-content: center;
     background-image: url("https://images7.alphacoders.com/413/413186.jpg");
     background-size:cover;
 	height: 100%;
+	font-size: 16px;
 	
 }
 
@@ -24,11 +25,11 @@ body {
 
 .card-to-do {
 	box-shadow: 0px 0px 5px rgb(245, 243, 243);
-	padding: 20px;
+	padding: 0.625rem;
 	border-radius: 50px;
-	width: 100%;
+	width: 90%;
 	align-items: center;
-    border: 12px solid white;
+    border: 0.75rem solid white;
 	background-color: black;
 
 }
@@ -42,7 +43,7 @@ h1, h3 {
 
 /* Estilos para los contadores */
 .counter-movies {
-	margin: 40px 0;
+	margin: 2.5rem 0;
 	display: flex;
 	justify-content: space-around;
 }
@@ -51,16 +52,16 @@ h1, h3 {
 .counter-movies span {
 	color: #10e729;
 	font-weight: 700;
-	font-size: 24px;
-	margin-left: 10px;
+	font-size: 1.5rem;
+	margin-left: 0.625rem;
 }
 
 /* Estilos para la lista */
 ul {
-	margin-top: 50px;
+	margin-top: 3.125rem;
 	display: flex;
 	flex-direction: column;
-	gap: 15px;
+	gap: 0.9375rem;
 }
 
 ul li {
@@ -68,7 +69,7 @@ ul li {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	gap: 20px;
+	gap: 1.25rem;
 }
 
 ul li span {
@@ -87,14 +88,14 @@ ul li form {
 
 .input-update {
 	border: none;
-    padding: 10px;
+    padding: 0.625rem;
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 1rem;
 	color: rgb(6, 19, 8);
-	width: 100%;
+	width: 90%;
 	background-color:white;
 	outline: none;
-    border-radius: 20px;
+    border-radius: 1.25rem;
    
     
 }
@@ -124,7 +125,7 @@ ul li form {
 .btn-delete {
 	background-color: black;
     color: #fff;
-	padding: 15px;
+	padding: 0.9375rem;
 	display: flex;
     align-items: center;
 	justify-content: center;
@@ -165,8 +166,8 @@ form {
 
 .add-movie h3 {
 	text-align: center;
-	margin-bottom: 40px;
-	font-size: 24px;
+	margin-bottom: 2.5rem;
+	font-size: 1.5rem;
 }
 
 .input-add {
@@ -188,10 +189,10 @@ form {
 	border: none;
 	background-color:black;
 	color: rgb(23, 221, 43);
-	padding: 5px 40px;
-	border-radius: 20px;
+	padding: 0.3125rem 2.5rem;
+	border-radius: 1.25rem;
 	cursor:copy;
-	font-size: 17px;
+	font-size: 1.0625rem;
 }
 
 .btn-add:hover {
@@ -199,3 +200,27 @@ form {
     opacity: 0.8;
     transition: all 0.5s;
 }
+
+@media screen and (max-width: 1400px) {
+	.card-to-do { 
+	  font-size: 1rem	;
+	}
+  }
+
+@media screen and (max-width: 800px) {
+	.card-to-do {
+		font-size: 1rem ;
+	  width: 100%;
+	  padding: 0;
+	}
+  }
+  
+  /* Responsive layout  */
+  @media screen and (max-width: 400px) {
+	.card-to-do {
+	  font-size: 1rem;
+	  float: none;
+	  width: 50%;
+	  padding: 0;
+	}
+  }

@@ -2,7 +2,7 @@
 Primer proyecto basado con REACT
 
 ## Descripcion:
-Listado de peliculas recomendadas para ver en la plataforma de streaming "Netflix" para este 2023.
+APP Util para gestionar tus compras en el supermercado y no se te olvide algun articulo que necesites
 
 # Developer
 Enrique Abril.

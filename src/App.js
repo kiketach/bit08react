@@ -16,6 +16,7 @@ function App() {
 
 	return (
 		<>
+		<div className='container'>
 			<div className='card-to-do'>
 				<h1> Recordatorios de compras</h1>
         <hr></hr>
@@ -40,6 +41,7 @@ function App() {
 				</div>
         <hr /> <br></br> 
 					<MovieAdd handleNewMovie={handleNewMovie} />
+			</div>
 			</div>
 		</>
 	);
